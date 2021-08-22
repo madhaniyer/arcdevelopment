@@ -11,7 +11,7 @@ function App() {
         <Header/>
         <Switch>
           <Route exact path="/" component={()=><div>Home</div>}></Route>
-          <Route exact path="/services" component={()=><div>services</div>}></Route>
+          <Route exact path="/services" component={()=><div>Services</div>}></Route>
           <Route exact path="/customsoftware" component={()=><div>customsoftware</div>}></Route>
           <Route exact path="/mobileapps" component={()=><div>mobileapps</div>}></Route>
           <Route exact path="/websites" component={()=><div>websites</div>}></Route>
