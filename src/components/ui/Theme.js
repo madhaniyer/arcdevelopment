@@ -12,7 +12,7 @@ export default createTheme({
 
         },
         primary: {
-            main: `${arcBlue}`
+            main: `${arcGreen}`
         },
         secondary: {
             main: `${arecOrange}`
