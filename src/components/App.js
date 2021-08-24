@@ -11,14 +11,11 @@ function App() {
         <Header/>
         <Switch>
           <Route exact path="/" component={()=><div>Home</div>}></Route>
-          <Route exact path="/services" component={()=><div>Services</div>}></Route>
-          <Route exact path="/customsoftware" component={()=><div>customsoftware</div>}></Route>
-          <Route exact path="/mobileapps" component={()=><div>mobileapps</div>}></Route>
-          <Route exact path="/websites" component={()=><div>websites</div>}></Route>
-          <Route exact path="/revolution" component={()=><div>revolution</div>}></Route>
-          <Route exact path="/about" component={()=><div>about</div>}></Route>
-          <Route exact path="/contact" component={()=><div>contact</div>}></Route>
-          <Route exact path="/estimate" component={()=><div>estimate</div>}></Route>
+          <Route exact path="/huts" component={()=><div>Huts</div>}></Route>
+          <Route exact path="/campsites" component={()=><div>Managed Campsites</div>}></Route>
+          <Route exact path="/tracksections" component={()=><div>Track Sections</div>}></Route>
+          <Route exact path="/lodges" component={()=><div>Lodges, Cabins & Cottages</div>}></Route>
+          <Route exact path="/greatwalks" component={()=><div>Great Walks</div>}></Route>
          </Switch>
       </BrowserRouter>
     </ThemeProvider>
