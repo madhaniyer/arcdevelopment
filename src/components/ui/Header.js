@@ -6,9 +6,11 @@ import {makeStyles} from "@material-ui/core/styles";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Button from "@material-ui/core/Button";
+import Paper from "@material-ui/core/Paper";
 import {Link} from "react-router-dom";
 
 import logo from "../../assets/logo.svg"
+import Grid from '@material-ui/core/Grid';
 
 function ElevationScroll(props) {
     const { children } = props;
